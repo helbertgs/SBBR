@@ -1,9 +1,17 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
-	<Airport displayName="Pres Juscelino Kubitschek Intl" groupID="4294967295" groupGenerated="FALSE" name="Pres Juscelino Kubitschek Intl" ident="SBBR" lat="-15.87111119180918" lon="-47.91861131787300" alt="1054.91210937500000" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+	<Airport displayName="Pres Juscelino Kubitschek Intl" groupID="1" groupGenerated="FALSE" region="Lago Sul" country="Brazil" state="Distrito Federal" city="Brasilia" name="Pres Juscelino Kubitschek Intl" ident="SBBR" lat="-15.87111119180918" lon="-47.91861131787300" alt="1054.91210937500000" magvar="-22.073000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-15.86260389462857" lon="-47.91263644382757" alt="1051.18736067879945" heading="86.18494415283203" length="3201.99658203125000" width="45.00000000000000" patternAltitude="304.79998779296875" surface="{A98FAFA4-2B6A-4F62-AF27-E4448E313C40}" transparent="FALSE" number="11" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="HIGH" edge="HIGH" centerRed="TRUE"/>
+			<ApproachLights end="PRIMARY" system="ALSF1" strobes="0" endLights="TRUE" touchdown="FALSE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<RunwayStart end="PRIMARY" lat="-15.86354769056129" lon="-47.92726651843910" alt="1051.35884670447558" heading="86.18494415283203"/>
+			<RunwayStart end="SECONDARY" lat="-15.86165911027151" lon="-47.89800650544558" alt="1051.40191676933318" heading="-93.81506347656250"/>
+		</Runway>
 		<Aprons/>
 		<PaintedElements/>
 		<ApronEdgeLights/>
+		<DeleteAirport deleteAllApproaches="FALSE" deleteAllApronLights="TRUE" deleteAllAprons="FALSE" deleteAllFrequencies="FALSE" deleteAllHelipads="TRUE" deleteAllRunways="TRUE" deleteAllStarts="FALSE" deleteAllTaxiways="FALSE" deleteAllVectorPlacement="FALSE" deleteAllBoundaryFences="FALSE" deleteAllJetways="TRUE" deleteAllControlTowers="FALSE" deleteAllDepartures="FALSE" deleteAllArrivals="FALSE" deleteAllPaintedElements="FALSE" deleteAllLightSupports="FALSE" deleteAllTaxiwaySigns="TRUE" deleteAllILSs="FALSE" deleteAllTerminalWaypoints="FALSE" deleteAllTerminalNDBs="FALSE"/>
 	</Airport>
 </FSData>
 
